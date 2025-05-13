@@ -1,10 +1,10 @@
-import { Person } from './Person'
+import { User } from './user'
 
 function App() {
 	return (
 		<>
-			<Person name={'Jeff'} age={33} isMarried={false} />
-			<Person name={'Colin'} age={36} isMarried={true} />
+			<User name={'Jeff'} age={33} isMarried={false} />
+			<User name={'Colin'} age={36} isMarried={true} />
 		</>
 	)
 }
